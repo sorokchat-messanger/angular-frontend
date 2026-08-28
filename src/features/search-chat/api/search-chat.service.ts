@@ -1,6 +1,6 @@
 import { injectMyChats } from '@/entities';
 import { computed, Service, signal } from '@angular/core';
-import { type GetChatPayload } from '@sorokchat/contracts';
+import { type GetChatPayload } from '@sorokchat-messanger/contracts';
 
 @Service()
 export class SearchChatService {

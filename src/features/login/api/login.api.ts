@@ -1,7 +1,7 @@
 import { AuthorizationService, PROFILE_KEY } from '@/entities';
 import { injectMutation } from '@/shared';
 import { inject } from '@angular/core';
-import { type LoginPayload } from '@sorokchat/contracts';
+import { type LoginPayload } from '@sorokchat-messanger/contracts';
 
 export const LOGIN_KEY = 'login';
 

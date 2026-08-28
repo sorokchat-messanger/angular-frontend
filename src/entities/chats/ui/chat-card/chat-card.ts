@@ -1,5 +1,5 @@
 import { Component, computed, input } from '@angular/core';
-import { type GetChatPayload } from '@sorokchat/contracts';
+import { type GetChatPayload } from '@sorokchat-messanger/contracts';
 import { RouterLink } from '@angular/router';
 import { LetterAvatar, PathConfig } from '@/shared';
 

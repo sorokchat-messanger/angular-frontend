@@ -7,7 +7,7 @@ import {
   type UpdateChatPayload,
   type GetChatPayload,
   type NewChatPayload,
-} from '@sorokchat/contracts';
+} from '@sorokchat-messanger/contracts';
 import { firstValueFrom } from 'rxjs';
 
 @Service()

@@ -1,7 +1,7 @@
 import { AuthorizationService, PROFILE_KEY } from '@/entities';
 import { injectMutation } from '@/shared';
 import { inject } from '@angular/core';
-import { type NewUserPayload } from '@sorokchat/contracts';
+import { type NewUserPayload } from '@sorokchat-messanger/contracts';
 
 export const REGISTER_KEY = 'register';
 

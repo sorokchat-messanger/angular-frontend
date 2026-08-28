@@ -1,6 +1,6 @@
 import { Component, input } from '@angular/core';
 import { ChatCard } from '../chat-card';
-import { type GetChatPayload } from '@sorokchat/contracts';
+import { type GetChatPayload } from '@sorokchat-messanger/contracts';
 
 @Component({
   selector: 'app-chat-list',

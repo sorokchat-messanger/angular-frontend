@@ -8,7 +8,7 @@ import {
   AUTHORIZATION_ROUTES,
   type LoginPayload,
   type GetUserPayload,
-} from '@sorokchat/contracts';
+} from '@sorokchat-messanger/contracts';
 import { firstValueFrom } from 'rxjs';
 import { AccessTokenStore } from './access-token.store';
 import { Router } from '@angular/router';

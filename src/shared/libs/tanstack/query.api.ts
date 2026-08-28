@@ -1,5 +1,5 @@
 import { type Signal } from '@angular/core';
-import { type ErrorPayload } from '@sorokchat/contracts';
+import { type ErrorPayload } from '@sorokchat-messanger/contracts';
 import { injectQuery as query } from '@tanstack/angular-query-experimental';
 
 export function injectQuery<TOutput, TError = ErrorPayload>(

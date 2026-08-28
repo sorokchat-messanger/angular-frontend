@@ -2,7 +2,7 @@ import { Button, Field, Form, PathConfig, withZod } from '@/shared';
 import { Component, signal } from '@angular/core';
 import { form } from '@angular/forms/signals';
 import { RouterLink } from '@angular/router';
-import { LoginSchema, type LoginPayload } from '@sorokchat/contracts';
+import { LoginSchema, type LoginPayload } from '@sorokchat-messanger/contracts';
 import { injectLogin } from '../../api';
 
 @Component({

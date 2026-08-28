@@ -1,5 +1,5 @@
 import { inject } from '@angular/core';
-import { type ErrorPayload } from '@sorokchat/contracts';
+import { type ErrorPayload } from '@sorokchat-messanger/contracts';
 import { injectMutation as mutation, QueryClient } from '@tanstack/angular-query-experimental';
 
 export function injectMutation<TInput, TOutput, TError = ErrorPayload>(

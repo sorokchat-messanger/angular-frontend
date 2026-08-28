@@ -2,7 +2,7 @@ import { Button, Field, Form, PathConfig, withZod } from '@/shared';
 import { Component, signal } from '@angular/core';
 import { form } from '@angular/forms/signals';
 import { RouterLink } from '@angular/router';
-import { type NewUserPayload, NewUserSchema } from '@sorokchat/contracts';
+import { type NewUserPayload, NewUserSchema } from '@sorokchat-messanger/contracts';
 import { injectRegister } from '../../api';
 
 @Component({
