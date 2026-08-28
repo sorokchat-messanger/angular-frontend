@@ -1,0 +1,14 @@
+@use "../../styles/colors.scss" as *;
+
+:host {
+  display: contents;
+}
+
+app-icon {
+  transition: .3s all ease;
+  @media screen and (any-hover: hover) {
+    &:hover {
+      color: $primaryTextColor;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@use '../../../../shared/styles/colors.scss' as *;
+
+:host {
+  display: contents;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.link {
+  display: block;
+}

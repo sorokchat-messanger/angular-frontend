@@ -1,0 +1,20 @@
+@let form = registerForm();
+<app-form [form]="form" (send)="register($event)">
+  <h1>Реєстрація</h1>
+  <app-field [field]="registerForm.login" placeholder="Ваш логін" label="Логін" />
+  <app-field
+    [field]="registerForm.password"
+    placeholder="Ваш пароль"
+    type="password"
+    label="Пароль"
+  />
+  <app-field
+    [field]="registerForm.displayName"
+    placeholder="Ваше видиме ім'я"
+    label="Видиме ім'я"
+  />
+  <app-button [disabled]="form.invalid() || isPending()">Зареєструватися</app-button>
+  <p class="guide">
+    Якщо вже зареєстровані, <a class="accent" [routerLink]="loginPath.fullPath">увійдіть</a>.
+  </p>
+</app-form>

@@ -1,0 +1,11 @@
+@let input = field();
+@if (type() === 'password') {
+  <app-password-input [field]="input" [placeholder]="placeholder()" />
+} @else {
+  <app-abstract-input
+    [field]="input"
+    [placeholder]="placeholder()"
+    [type]="type()"
+    [icon]="icon()"
+  />
+}

@@ -1,0 +1,14 @@
+@let input = field();
+<input
+  [formField]="input"
+  class="input"
+  [placeholder]="placeholder()"
+  [type]="type()"
+  [id]="input().name()"
+  [class.error]="input().invalid()"
+/>
+@let inputIcon = icon();
+@if (inputIcon !== null) {
+  <app-icon [icon]="inputIcon" [size]="iconSize" />
+}
+<ng-container />

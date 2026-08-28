@@ -1,0 +1,11 @@
+@let form = loginForm();
+<app-form [form]="form" (send)="login($event)">
+  <h1>Вхід</h1>
+  <app-field [field]="loginForm.login" label="Логін" placeholder="Ваш логін" />
+  <app-field [field]="loginForm.password" label="Пароль" placeholder="Ваш пароль" type="password" />
+  <app-button [disabled]="form.invalid() || isPending()">Увійти</app-button>
+  <p class="guide">
+    Якщо ще не зареєстровані,
+    <a class="accent" [routerLink]="registerPath.fullPath">зареєструйтеся</a>.
+  </p>
+</app-form>
