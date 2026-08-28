@@ -2,6 +2,6 @@ services:
   - type: web
     name: angular-frontend
     runtime: docker
-    repo: sorokchat/angular-frontend
+    repo: sorokchat-messanger/angular-frontend
     branch: master
     autoDeploy: true
