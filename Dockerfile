@@ -1,7 +1,8 @@
 FROM node:24.15.0-alpine as build
 WORKDIR /opt/app
-ADD *.json .
-RUN npm ci
+RUN corepack enable
+COPY package*.json yarn.lock ./
+RUN yarn install --frozen-lockfile
 ADD . .
 RUN npm run build
 COPY public /opt/app/dist/angular-frontend/
