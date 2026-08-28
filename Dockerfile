@@ -4,7 +4,7 @@ RUN corepack enable
 COPY package*.json yarn.lock ./
 RUN yarn install --frozen-lockfile
 ADD . .
-RUN npm run build
+RUN yarn build
 COPY public /opt/app/dist/angular-frontend/
 
 FROM nginx:alpine
