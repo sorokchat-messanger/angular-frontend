@@ -1584,9 +1584,9 @@
     typescript "6.0.3"
 
 "@sorokchat-messanger/contracts@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@sorokchat-messanger/contracts/-/contracts-1.0.1.tgz#b333f1198ce17872c0858737d88f51db2a37e552"
-  integrity sha512-QQL/SwXHh45qCsYqKcQ6+xPoJ0VgSzAmNwvTjOSrFXBVfLx4c2fSAJKUdff/SmeeDBMW/jqYnvYF5r0ROWx2eg==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@sorokchat-messanger/contracts/-/contracts-1.0.2.tgz#c4b883428958ea4592112bdf7fe8c8aeb953fae4"
+  integrity sha512-j9I0FK2+5NIbzYI3kPCbusJh7CU6EkcCPGMjxJcvldvExk+dKd3m6IeGhFshGG9WeeyYlYMfAHpA9U3u0FT6pw==
   dependencies:
     js-yaml "^5.2.3"
     zod "^4.4.3"
