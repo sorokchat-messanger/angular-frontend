@@ -9,7 +9,7 @@ COPY package*.json yarn.lock ./
 RUN yarn install --frozen-lockfile
 
 COPY . .
-RUN yarn build
+RUN yarn build --configuration=production
 COPY public /opt/app/dist/angular-frontend/
 
 FROM nginx:alpine
